@@ -25,6 +25,7 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: #1f2937;
+  height: 300px;
 }
 
 .left {
@@ -37,16 +38,39 @@ ul {
   font-weight: 900;
 }
 
+.left button {
+  border: none;
+  border-radius: 4px;
+  background-color: royalblue;
+  color: white;
+  padding: 8px 16px;
+}
+
 .section-two {
+  height: 300px;
 }
 
 .images {
   display: flex;
-  justify-content: space-between;
+  gap: 32px;
+  justify-content: center;
+}
+
+.imagebox {
+  height: 150px;
+}
+
+.image {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: royalblue;
+  padding: 45px;
 }
 
 .section-three {
   background-color: #e5e7eb;
+  height: 300px;
 }
 
 .section-three p {
@@ -54,6 +78,27 @@ ul {
   font-weight: light;
   font-style: italic;
   color: #1f2937;
+}
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 500px;
+  background-color: royalblue;
+  padding: 8px 30px;
+  margin: 20px;
+}
+
+.text p {
+  margin: 0;
+  color: white;
 }
 
 .hero,
