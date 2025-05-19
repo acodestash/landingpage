@@ -85,7 +85,46 @@ a {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  margin-top: 30px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 48px;
+}
+
+.col {
+  width: 150px;
+}
+
+.box {
+  border: solid;
+  border-width: 3px;
+  border-color: #3882f6;
+  height: 140px;
+  width: 150px;
+  border-radius: 8px;
+}
+
+.third {
+  height: 450px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third p {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  width: 800px;
+}
+
 .footer {
   text-align: center;
   color: #e5e7eb;
