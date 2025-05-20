@@ -30,7 +30,7 @@ a {
 
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -125,7 +125,53 @@ a {
   width: 800px;
 }
 
+.quoter {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.fourth {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.popup {
+  background-color: #3882f6;
+  width: 800px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.popup p {
+  font-weight: bold;
+}
+
+.action-desc {
+  display: block;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.popup button {
+  background-color: #3882f6;
+  border: solid;
+  border-color: white;
+  color: white;
+  padding: 4px 20px;
+  border-radius: 4px;
+}
+
 .footer {
   text-align: center;
   color: #e5e7eb;
+  padding: 32px;
+  font-size: 12px;
 }
