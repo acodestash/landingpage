@@ -1,1 +1,1 @@
-my basic landing page
+basic landing page
